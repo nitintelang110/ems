@@ -39,6 +39,6 @@ app.get('/verify', verifyUser, (req, res) => {
   return res.json({Status:true,role:req.role,id:req.id})  
 })
 
-app.listen(8000,()=>{
-    console.log("on port 8000")
+app.listen(3606,()=>{
+    console.log("on port 3606")
 })
