@@ -3,7 +3,7 @@ import mysql from 'mysql2';
 
 const db = mysql.createConnection({
     
-    host:"https://ems-tau-three.vercel.app/",
+    host:"localhost",
     user:"root",
     password:"",
     database:"ems"
