@@ -18,7 +18,7 @@ export const Login = () => {
   axios.defaults.withCredentials = true;  //to save the token in cookies
    const handleSubmit = (e)=>{
       e.preventDefault();
-      axios.post("http://localhost:8000/auth/adminlogin", values)
+      axios.post("https://emsfrontend-rust.vercel.app/auth/adminlogin", values)
         .then(result => {
           if (result.data.loginStatus) {  //taking this status from backend if its match then open dashboard other wise send error which we set in backend
            //if login valid then navigate
