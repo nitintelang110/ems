@@ -3,10 +3,10 @@ import mysql from 'mysql2';
 
 const db = mysql.createConnection({
     
-    host:"sql6.freesqldatabase.com",
-    user:"sql6687089",
-    password:"1PRWkfX2XK",
-    database:"sql6687089"
+    host:"localhost",
+    user:"",
+    password:"",
+    database:"ems"
     
 })
 
